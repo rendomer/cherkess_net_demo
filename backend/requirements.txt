@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-SQLAlchemy[asyncio]
-aiosqlite
-pydantic
-python-dotenv
-passlib[bcrypt]

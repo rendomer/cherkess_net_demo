@@ -1,1 +1,0 @@
-# C:\cherkess_net\backend\app\models\__init__.py
