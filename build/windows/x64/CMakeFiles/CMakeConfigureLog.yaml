@@ -1,0 +1,150 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Æ╨╡╤Ç╤ü╨╕╤Å MSBuild 17.14.8+a7a4d5af0 ╨┤╨╗╤Å .NET Framework
+      ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 7/1/2025 0:01:19.
+      
+      ╨ƒ╤Ç╨╛╨╡╨║╤é "C:\\cherkess_net\\build\\windows\\x64\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
+      PrepareForBuild:
+        ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨í╤é╤Ç╤â╨║╤é╤â╤Ç╨╕╤Ç╨╛╨▓╨░╨╜╨╜╤ï╨╣ ╨▓╤ï╨▓╨╛╨┤ ╨▓╨║╨╗╤Ä╤ç╨╡╨╜. ╨ñ╨╛╤Ç╨╝╨░╤é╨╕╤Ç╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤ü╤é╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤Å╤é╨╛╤Ç╨░ ╨▒╤â╨┤╨╡╤é ╨╛╤é╤Ç╨░╨╢╨░╤é╤î ╨╕╨╡╤Ç╨░╤Ç╤à╨╕╤Ä ╨╛╤ê╨╕╨▒╨╛╨║. ╨ƒ╨╛╨┤╤Ç╨╛╨▒╨╜╨╡╨╡ ╤ü╨╝. https://aka.ms/cpp/structured-output.
+        ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ╤é╨░╨║ ╨║╨░╨║ ╨▒╤ï╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\cherkess_net\\build\\windows\\x64\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨ñ╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤â╨┤╨░╨╗╤Å╨╡╤é╤ü╤Å.
+        ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ╨í╨▒╨╛╤Ç╨║╨░ ╨┐╤Ç╨╛╨╡╨║╤é╨░ "C:\\cherkess_net\\build\\windows\\x64\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░ (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
+      
+      ╨í╨▒╨╛╤Ç╨║╨░ ╤â╤ü╨┐╨╡╤ê╨╜╨╛ ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░.
+          ╨ƒ╤Ç╨╡╨┤╤â╨┐╤Ç╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨₧╤ê╨╕╨▒╨╛╨║: 0
+      
+      ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:01.22
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/cherkess_net/build/windows/x64/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/cherkess_net/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-0wk35g"
+      binary: "C:/cherkess_net/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-0wk35g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/cherkess_net/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-0wk35g'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bcdfa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Æ╨╡╤Ç╤ü╨╕╤Å MSBuild 17.14.8+a7a4d5af0 ╨┤╨╗╤Å .NET Framework
+        ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 7/1/2025 0:01:21.
+        
+        ╨ƒ╤Ç╨╛╨╡╨║╤é "C:\\cherkess_net\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-0wk35g\\cmTC_bcdfa.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
+        PrepareForBuild:
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_bcdfa.dir\\Debug\\".
+          ╨í╤é╤Ç╤â╨║╤é╤â╤Ç╨╕╤Ç╨╛╨▓╨░╨╜╨╜╤ï╨╣ ╨▓╤ï╨▓╨╛╨┤ ╨▓╨║╨╗╤Ä╤ç╨╡╨╜. ╨ñ╨╛╤Ç╨╝╨░╤é╨╕╤Ç╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤ü╤é╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤Å╤é╨╛╤Ç╨░ ╨▒╤â╨┤╨╡╤é ╨╛╤é╤Ç╨░╨╢╨░╤é╤î ╨╕╨╡╤Ç╨░╤Ç╤à╨╕╤Ä ╨╛╤ê╨╕╨▒╨╛╨║. ╨ƒ╨╛╨┤╤Ç╨╛╨▒╨╜╨╡╨╡ ╤ü╨╝. https://aka.ms/cpp/structured-output.
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "C:\\cherkess_net\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-0wk35g\\Debug\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_bcdfa.dir\\Debug\\cmTC_bcdfa.tlog\\".
+        InitializeBuildStatus:
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_bcdfa.dir\\Debug\\cmTC_bcdfa.tlog\\unsuccessfulbuild", ╤é╨░╨║ ╨║╨░╨║ ╨▒╤ï╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_bcdfa.dir\\Debug\\cmTC_bcdfa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bcdfa.dir\\Debug\\\\" /Fd"cmTC_bcdfa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          ╨₧╨┐╤é╨╕╨╝╨╕╨╖╨╕╤Ç╤â╤Ä╤ë╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤Å╤é╨╛╤Ç Microsoft (R) C/C++ ╨▓╨╡╤Ç╤ü╨╕╨╕ 19.44.35207.1 ╨┤╨╗╤Å x64
+          (C) ╨Ü╨╛╤Ç╨┐╨╛╤Ç╨░╤å╨╕╤Å ╨£╨░╨╣╨║╤Ç╨╛╤ü╨╛╤ä╤é (Microsoft Corporation).  ╨Æ╤ü╨╡ ╨┐╤Ç╨░╨▓╨░ ╨╖╨░╤ë╨╕╤ë╨╡╨╜╤ï.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bcdfa.dir\\Debug\\\\" /Fd"cmTC_bcdfa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\cherkess_net\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-0wk35g\\Debug\\cmTC_bcdfa.exe" /INCREMENTAL /ILK:"cmTC_bcdfa.dir\\Debug\\cmTC_bcdfa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/cherkess_net/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-0wk35g/Debug/cmTC_bcdfa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cherkess_net/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-0wk35g/Debug/cmTC_bcdfa.lib" /MACHINE:X64  /machine:x64 cmTC_bcdfa.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_bcdfa.vcxproj -> C:\\cherkess_net\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-0wk35g\\Debug\\cmTC_bcdfa.exe
+        FinalizeBuildStatus:
+          ╨ñ╨░╨╣╨╗ "cmTC_bcdfa.dir\\Debug\\cmTC_bcdfa.tlog\\unsuccessfulbuild" ╤â╨┤╨░╨╗╤Å╨╡╤é╤ü╤Å.
+          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_bcdfa.dir\\Debug\\cmTC_bcdfa.tlog\\cmTC_bcdfa.lastbuildstate".
+        ╨í╨▒╨╛╤Ç╨║╨░ ╨┐╤Ç╨╛╨╡╨║╤é╨░ "C:\\cherkess_net\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-0wk35g\\cmTC_bcdfa.vcxproj" ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░ (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
+        
+        ╨í╨▒╨╛╤Ç╨║╨░ ╤â╤ü╨┐╨╡╤ê╨╜╨╛ ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░.
+            ╨ƒ╤Ç╨╡╨┤╤â╨┐╤Ç╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨₧╤ê╨╕╨▒╨╛╨║: 0
+        
+        ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35207.1
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
