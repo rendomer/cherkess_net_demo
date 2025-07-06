@@ -2,7 +2,8 @@
 .dart_tool/
 .packages
 .pub/
-build/
+
+
 flutter_*.png
 
 # IDEs and editors
