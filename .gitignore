@@ -1,0 +1,28 @@
+# Flutter/Dart related
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_*.png
+
+# IDEs and editors
+.idea/
+.vs/
+*.iml
+
+# Android
+android/.gradle/
+android/app/build/
+android/local.properties
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/build/
+
+# Other
+*.lock
+pubspec.lock
+*.log
