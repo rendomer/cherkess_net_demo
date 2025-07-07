@@ -1,0 +1,27 @@
+name: cherkess_net
+description: "A new Flutter project."
+publish_to: 'none' # Убери или оставь, если не хочешь публиковать
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  http: ^0.13.6
+  flutter_svg: ^1.1.6
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/flag_logo.svg
