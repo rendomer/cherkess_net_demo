@@ -1,29 +1,32 @@
-# Flutter/Dart related
+# Flutter
+build/
 .dart_tool/
 .packages
-.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+pubspec.lock
 
-
-flutter_*.png
-
-# IDEs and editors
+# IDE
 .idea/
-.vs/
+.vscode/
 *.iml
 
-# Android
-android/.gradle/
-android/app/build/
-android/local.properties
+# OS
+.DS_Store
 
-# iOS
-ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
-ios/Pods/
-ios/Runner.xcworkspace/
-ios/build/
-
-# Other
-*.lock
-pubspec.lock
+# Logs
 *.log
+
+# Web/Node
+node_modules/
+dist/
+
+# Env
+.env
+
+# SQLite
+*.sqlite
+*.lock
+ 
