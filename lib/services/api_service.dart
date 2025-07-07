@@ -7,22 +7,10 @@ import '../models/user_model.dart';
 import '../models/survey_model.dart';
 import '../services/storage_service.dart';
 
-class AppConfig {
-  static String get baseUrl {
-    if (kIsWeb) {
-      return 'http://127.0.0.1:8000';
-    } else if (Platform.isAndroid) {
-      return 'http://10.0.2.2:8000';
-    } else {
-      return 'http://192.168.1.100:8000';
-    }
-  }
-}
-
 class ApiService {
-  static final String _usersBaseUrl = '${AppConfig.baseUrl}/api/users';
-  static final String _statsBaseUrl = '${AppConfig.baseUrl}/api/stats';
-  static final String _generalStatsUrl = '${AppConfig.baseUrl}/api/statistics';
+  static final String _usersBaseUrl = '$baseUrl/api/users';
+  static final String _statsBaseUrl = '$baseUrl/api/stats';
+  static final String _generalStatsUrl = '$baseUrl/api/statistics';
 
   /// ✅ Логин
   static Future<User?> login(String credential, String password) async {
