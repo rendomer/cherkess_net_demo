@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 import '../widgets/flag_logo.dart';
+import '../config.dart';
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({Key? key}) : super(key: key);
@@ -31,7 +32,7 @@ class _RegisterPageState extends State<RegisterPage> {
     });
 
     try {
-      final url = Uri.parse('http://127.0.0.1:8000/api/users/register');
+      final url = Uri.parse('$baseUrl/api/users/register');
       final response = await http.post(
         url,
         headers: {'Content-Type': 'application/json'},
