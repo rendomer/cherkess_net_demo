@@ -9,6 +9,7 @@ import '../services/storage_service.dart';
 import '../widgets/flag_logo.dart';
 
 import 'package:cherkess_net/services/storage_service.dart';
+import '../config.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -32,7 +33,7 @@ class _LoginPageState extends State<LoginPage> {
       _isLoading = true;
     });
 
-    final url = Uri.parse('http://127.0.0.1:8000/api/users/login');
+    final url = Uri.parse('$baseUrl/api/users/login');
 
     try {
       final response = await http.post(
