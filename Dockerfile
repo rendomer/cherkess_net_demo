@@ -1,16 +1,17 @@
 FROM python:3.12-slim
 
-WORKDIR /app
+# Папка будет /backend/app
+WORKDIR /backend/app
 
 # requirements
-COPY backend/requirements.txt .
+COPY backend/requirements.txt /backend/
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r /backend/requirements.txt
 
-# скопировать весь backend — в нём уже лежит app
-COPY backend/ ./backend/
+# Скопировать весь backend (с app внутри)
+COPY backend/ /backend/
 
 EXPOSE 8080
 
-# Запускаем из backend.app.main
-CMD ["uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "8080"]
+# Теперь запуск из папки app
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--p]()
