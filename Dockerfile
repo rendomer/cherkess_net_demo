@@ -21,3 +21,4 @@ EXPOSE 8080
 
 # Стартуем uvicorn ИЗ backend с правильным модулем
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
+
